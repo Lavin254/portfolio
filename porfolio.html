@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lavin Odhiambo - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Lavin Odhiambo</h1>
+      <p>Kenyan Web Developer</p>
+      <img src="static\profile.jpeg" alt="Lavin's profile picture" />
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#cv">My CV</a></li>
+      </ul>
+    </nav>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a project management graduate with over four years of experience
+        leading impactful projects in healthcare, gender-based violence, mental
+        health, and peacebuilding. My journey into tech began with a passion for
+        problem-solving and a desire to leverage technology for greater impact.
+        As a beginner in web development, I am currently learning HTML, CSS, and
+        SQL, with a focus on building user-friendly web applications. My goal is
+        to merge my project management skills with my growing tech knowledge to
+        create solutions that drive change.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SQL</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/Lavin254/week-2-assignment-Lavin254-4"
+            target="_blank"
+            >Project 1</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/Lavin254/introduction-to-css-Lavin254-3"
+            target="_blank"
+            >Project 2</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section id="cv">
+      <h2>My CV</h2>
+      <p>You can download my CV by clicking the link below:</p>
+      <a href="static\LavinOdhiamboCV.pdf" download>Download CV</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Lavin Odhiambo. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
